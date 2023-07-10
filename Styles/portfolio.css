@@ -1,4 +1,9 @@
 /* Common shared styles */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -95,10 +100,13 @@ nav a {
 .banner-contain {
     max-width: 500px;
 }
+.banner-para{
+    margin-bottom: 10px;
+}
 
 /* main section styles */
 main {
-    width: 1140px;
+    max-width:1140px;
     margin: 0px auto;
 }
 
@@ -107,7 +115,7 @@ main {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    margin-top: 130px;
 }
 
 .section-description {
@@ -116,12 +124,18 @@ main {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 30px;
+}
+.section-title{
+    margin-bottom: 60px ;
+    margin-top: 80px;
 }
 
 .about-info-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
 
 .info-title {
@@ -133,4 +147,7 @@ main {
 }
 .info-description{
     font-weight: bold;
+}
+#paragraph{
+    padding: 30px 150px;
 }
