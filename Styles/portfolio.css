@@ -218,17 +218,41 @@ main section {
     font-weight: 700;
     margin-bottom: 5px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 25px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer style */
-footer{
+footer {
     display: flex;
-   background: #FFF8F3;
-   margin-top: 100px;
-   padding: 130px 200px;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 100%;
+
+}
+.social-icon{
+    margin-right: 23px;
 }
